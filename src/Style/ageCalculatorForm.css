@@ -1,0 +1,59 @@
+.calculatorWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+
+}
+.calculator {
+    width: 500px;
+    border-radius: 50px;
+    padding: 50px;
+    background-color: white;
+    border-bottom-right-radius: 150px;
+}
+.inputItem {
+    width: 100px;
+}
+
+ .buttonCalc {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 64px !important;
+     height: 64px !important;
+     background-color: #883AC6;
+     color: white;
+ }
+
+.buttonCalc svg {
+    font-size: 40px;
+
+}
+
+ .buttonCalc:hover {
+     background-color: #883A95;
+ }
+
+.flex {
+    display: flex;
+    font-family: Copperplate, fantasy;
+    font-style: italic;
+    align-items: center;
+    font-size: 25px;
+}
+
+ .flex h1 {
+     margin-right:20px;
+     color: #883AC6;
+ }
+
+ span {
+     font-weight: bold;
+ }
+
+
+.ant-form-item-has-error .customLabel{
+    color: red;
+}
